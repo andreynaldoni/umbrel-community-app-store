@@ -1,0 +1,54 @@
+manifestVersion: 1
+id: coolify
+name: Coolify
+tagline: An open-source & self-hostable Heroku / Netlify / Vercel alternative
+icon: https://coolify.io/coolify-transparent.svg
+category: developer
+version: "4.0.0-beta.333"
+port: 8000
+description: >-
+  Coolify is an all-in one PaaS that helps you to self-host your own applications,
+  databases or services (like Wordpress, Plausible Analytics, Ghost) without managing your servers,
+  also known as an open-source & self-hostable Heroku / Netlify / Vercel alternative.
+
+developer: Coolify
+website: https://coolify.io/
+submitter: Andrey Naldoni
+submission: ""
+repo: https://github.com/coollabsio/coolify
+support: https://github.com/coollabsio/coolify/issues
+gallery:
+  - https://coolify.io/docs/_astro/Screenshot_27-3-2024_205323_staging.coollabs.io.D4j7sRt5_xlHup.webp
+  - https://coolify.io/docs/_astro/Screenshot_27-3-2024_205338_staging.coollabs.io.d0lnI8U0_ZlmbJ.webp
+  - https://coolify.io/docs/_astro/Screenshot_27-3-2024_205348_staging.coollabs.io.FgeHSCss_z4BOB.webp
+  - https://coolify.io/docs/_astro/Screenshot_27-3-2024_205356_staging.coollabs.io.DpTkB9JN_ZOxiY0.webp
+  - https://coolify.io/docs/_astro/Screenshot_27-3-2024_205420_staging.coollabs.io.BhZLpmpr_Bj2rH.webp
+  - https://coolify.io/docs/_astro/Screenshot_27-3-2024_205431_staging.coollabs.io.BKsw9GSu_1G4UX8.webp
+  - https://coolify.io/docs/_astro/Screenshot_27-3-2024_205446_staging.coollabs.io.lHELEQhY_Umhsg.webp
+  - https://coolify.io/docs/_astro/Screenshot_27-3-2024_20548_staging.coollabs.io.x0N8Yu1__2epW8S.webp
+  - https://coolify.io/docs/_astro/Screenshot_27-3-2024_205515_staging.coollabs.io.FOoeGW7W_Z24cGRY.webp
+  - https://coolify.io/docs/_astro/Screenshot_27-3-2024_205527_staging.coollabs.io.-cIgj2s7_1AN337.webp
+  - https://coolify.io/docs/_astro/Screenshot_27-3-2024_205553_staging.coollabs.io.CGMSCLlQ_Zkulak.webp
+  - https://coolify.io/docs/_astro/Screenshot_27-3-2024_20557_staging.coollabs.io.Db62m9pP_JpBsu.webp
+  - https://coolify.io/docs/_astro/Screenshot_27-3-2024_205610_staging.coollabs.io.DPleSdW9_Z1SiitS.webp
+  - https://coolify.io/docs/_astro/Screenshot_27-3-2024_205627_staging.coollabs.io.B2NV6xJj_1tmr2N.webp
+  - https://coolify.io/docs/_astro/Screenshot_27-3-2024_20562_staging.coollabs.io.Bm9Pgqs3_1zfXQ3.webp
+  - https://coolify.io/docs/_astro/Screenshot_27-3-2024_205648_staging.coollabs.io.BwHyXJH9_Z1qYGfa.webp
+  - https://coolify.io/docs/_astro/Screenshot_27-3-2024_20570_staging.coollabs.io.CsItjMa__Z2iWEp3.webp
+  -
+releaseNotes: >-
+  feat: support alpine linux.
+  fix: onboarding view for new servers.
+  fix: server check job overlapping id.
+
+  What's Changed
+
+  Implement support for Alpine Linux by @wowi42
+  Update Hostinger link in README by @fizikiukas
+  Fix: Onboarding fails if SSH server uses other port than 22 and other onboarding improvements by @peaklabs-dev
+  fix: Disable mux_enabled during server validation by @andrasbacsai
+  v4.0.0-beta.333 by @andrasbacsai
+dependencies: ["curl", "wget", "git", "jq"]
+path: ""
+defaultUsername: ""
+defaultPassword: ""
