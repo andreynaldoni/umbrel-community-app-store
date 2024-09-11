@@ -35,7 +35,6 @@ gallery:
   - https://coolify.io/docs/_astro/Screenshot_27-3-2024_20562_staging.coollabs.io.Bm9Pgqs3_1zfXQ3.webp
   - https://coolify.io/docs/_astro/Screenshot_27-3-2024_205648_staging.coollabs.io.BwHyXJH9_Z1qYGfa.webp
   - https://coolify.io/docs/_astro/Screenshot_27-3-2024_20570_staging.coollabs.io.CsItjMa__Z2iWEp3.webp
-  -
 releaseNotes: >-
   feat: support alpine linux.
   fix: onboarding view for new servers.
